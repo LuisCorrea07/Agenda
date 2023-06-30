@@ -13,6 +13,7 @@ btnAgregarTarea.onclick = () =>{
         numero: numero.value,
         direccion: direccion.value,
     }
-    guardarContacto(db, contacto)
+    guardarContacto(db, contacto);
+    
 }
 cargarContactos(db,listadoTareas);
